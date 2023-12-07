@@ -1,0 +1,207 @@
+/* .cont {
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ .form {
+  margin-top: 10px; 
+  margin-left: 30%;
+}
+
+
+.form input {
+  width: 65%; 
+  margin-bottom: 10px;
+} 
+
+.addBtn{
+    background-color: rgb(8, 172, 35);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(8, 172, 35);
+    padding: 5px;
+    margin-left: 51% auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.listCont{
+    width: 60%;
+    border: 1px solid whitesmoke;
+    box-shadow: 3px 3px whitesmoke;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.delbtn{
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.editbtn{
+  background-color: rgb(255, 174, 0);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 174, 0);
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.btns{
+  background-color: rgb(43, 54, 247);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(43, 54, 247);
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .form {
+    padding: 10px;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .addBtn,
+  .delbtn,
+  .editbtn,
+  .btns {
+    margin: 5px;
+  }
+}*/
+
+.cont {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  padding: 20px;
+  width: 80%;
+}
+
+.form input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.addBtn {
+  background-color: rgb(8, 172, 35);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(8, 172, 35);
+  padding: 5px;
+  margin: 20px auto;
+  display: block;
+}
+
+.listCont {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid whitesmoke;
+  box-shadow: 3px 3px whitesmoke;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 7px;
+}
+
+.delbtn{
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.editbtn{
+  background-color: rgb(255, 174, 0);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 174, 0);
+  padding: 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btns{
+  background-color: rgb(43, 54, 247);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(43, 54, 247);
+  padding: 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+/* Media query for smaller screens (e.g., smartphones) */
+@media (max-width: 768px) {
+  .form {
+    padding: 10px;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .addBtn,
+  .delbtn,
+  .editbtn,
+  .btns {
+    margin: 5px;
+  }
+}
+
+/* Media query for very small screens (e.g., very small smartphones) */
+@media (max-width: 480px) {
+  .form {
+    padding: 5px;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  .addBtn,
+  .delbtn,
+  .editbtn,
+  .btns {
+    margin: 3px;
+  }
+}
